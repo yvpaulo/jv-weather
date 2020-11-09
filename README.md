@@ -1,8 +1,9 @@
 # JvWeather
 
-Este projeto faz parte da trila de aprendizado do booltcamp da Digital Innovation One - Avanade Fullstack Developer
+Este projeto faz parte da trilha de aprendizado do booltcamp da Digital Innovation One - Avanade Fullstack Developer
 
-Nele será criado um projeto Angular integrao a API da openweathermap.org/
+Nele será criado um projeto Angular integrado a API da openweathermap.org/
+para verificação de condições do tempo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
 
