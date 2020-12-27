@@ -4,10 +4,12 @@
 
 Este projeto faz parte da trilha de aprendizado do bootcamp da Digital Innovation One - Avanade Fullstack Developer
 
+Sob a tutela do Especialista João Victor Ghignatti [(Linkedin)](https://www.linkedin.com/in/joaoghignatti/)
+
 Nele foi criado um projeto Angular integrado a API da openweathermap.org/
 para verificação de condições do tempo
 
-AprendaAprendi uma forma avançada de gerenciamento de estado com NGRX, práticas e padrões de desenvolvimento, acompanhados de algumas APIs úteis que o Angular tem, mas que nem todo mundo conhece.
+Aprendi uma forma avançada de gerenciamento de estado com NGRX, práticas e padrões de desenvolvimento, acompanhados de algumas APIs úteis que o Angular tem, mas que nem todo mundo conhece.
 
 ![telainicial](./src/assets/img/telaInicial.png)
 ![telai1](./src/assets/img/tela1.png)
