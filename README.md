@@ -1,5 +1,7 @@
 # JvWeather
 
+Parei no video 8, no video 7 eu achei de copiar e colar e deu pau no códico e resolvi parar e ver quando eu tiver mais conhecimentos sobre angular
+
 Este projeto faz parte da trilha de aprendizado do bootcamp da Digital Innovation One - Avanade Fullstack Developer
 
 Nele será criado um projeto Angular integrado a API da openweathermap.org/
