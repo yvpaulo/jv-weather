@@ -11,6 +11,7 @@ import { environment } from '../environments/environment';
 import { EffectsModule } from '@ngrx/effects';
 import {HttpClientModule} from '@angular/common/http';
 import { StoreRouterConnectingModule } from '@ngrx/router-store'
+import { reducers } from './shared/state/app.reducer';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import { StoreRouterConnectingModule } from '@ngrx/router-store'
     HttpClientModule,
     HomeModule,
     BookmarksModule,
-    StoreModule.forRoot({}, {}),
+    StoreModule.forRoot(reducers),
     StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: environment.production }),
     EffectsModule.forRoot([]),
     StoreRouterConnectingModule.forRoot(),

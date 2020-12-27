@@ -1,6 +1,6 @@
 import { Component, Input, Output, ChangeDetectionStrategy, EventEmitter } from '@angular/core';
 
-import { CityWeather } from '../../../../shared/models/weather.model';
+import { CityWeather } from  '../../../../shared/models/weather.model';
 import { Units } from 'src/app/shared/models/units.enum';
 
 @Component({
