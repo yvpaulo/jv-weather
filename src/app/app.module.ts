@@ -12,6 +12,8 @@ import { EffectsModule } from '@ngrx/effects';
 import {HttpClientModule} from '@angular/common/http';
 import { StoreRouterConnectingModule } from '@ngrx/router-store'
 import { reducers } from './shared/state/app.reducer';
+import { CustomRouterSerializer } from './shared/state/router/router.reducer';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,8 @@ import { reducers } from './shared/state/app.reducer';
     StoreModule.forRoot(reducers),
     StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: environment.production }),
     EffectsModule.forRoot([]),
-    StoreRouterConnectingModule.forRoot(),
+    StoreRouterConnectingModule.forRoot({serializer:CustomRouterSerializer}),
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

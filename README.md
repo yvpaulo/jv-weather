@@ -1,11 +1,17 @@
 # JvWeather
 
-Parei no video 8, no video 7 eu achei de copiar e colar e deu pau no códico e resolvi parar e ver quando eu tiver mais conhecimentos sobre angular
+
 
 Este projeto faz parte da trilha de aprendizado do bootcamp da Digital Innovation One - Avanade Fullstack Developer
 
-Nele será criado um projeto Angular integrado a API da openweathermap.org/
+Nele foi criado um projeto Angular integrado a API da openweathermap.org/
 para verificação de condições do tempo
+
+AprendaAprendi uma forma avançada de gerenciamento de estado com NGRX, práticas e padrões de desenvolvimento, acompanhados de algumas APIs úteis que o Angular tem, mas que nem todo mundo conhece.
+
+![telainicial](./src/assets/img/telaInicial.png)
+![telai1](./src/assets/img/tela1.png)
+![telain2](./src/assets/img/tela2.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
 
